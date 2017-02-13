@@ -12,8 +12,8 @@ This pluging integrates shortcodes defined by the events-manager plugin as eleme
 == Description ==
 
 This plugin requires that you have installed:
-* [Visual Composer](https://vc.wpbakery.com/)
-* [Events Manager](https://wordpress.org/plugins/events-manager/)
+* [Visual Composer](https://vc.wpbakery.com/) - tested for version 5.0.1
+* [Events Manager](https://wordpress.org/plugins/events-manager/) - tested for version 5.6.6.1 
 
 The [Events Manager shortcodes](http://wp-events-plugin.com/documentation/shortcodes/) are mapped as Visual Composer elements.
 
