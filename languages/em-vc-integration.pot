@@ -1,0 +1,235 @@
+# Easy Digital Downloads Visual Composer Integration
+# This file is ditributed under the same license as the Easy Digital Downloads Visual Composer Integration pacakge.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Manager Visual Composer Integration "
+"1.1.0\n"
+"Report-Msgid-Bugs-To: Nils Woetzel <nils.woetzel@h-its.org>\n"
+"POT-Creation-Date: 2017-03-14 14:24+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Nils Woetzel <nils.woetzel@h-its.org>\n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_html_e;esc_html_x:1,2c;esc_html__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_attr__;_ex:1,2c;_nx:4c,1,2;"
+"_nx_noop:4c,1,2;_x:1,2c;_n:1,2;_n_noop:1,2;__ngettext:1,2;"
+"__ngettext_noop:1,2;_c,_nc:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: em-vc-integration.php:237
+msgid "List Limits"
+msgstr ""
+
+#: em-vc-integration.php:238
+msgid ""
+"This will control how many events or locations are shown on one "
+"list by default."
+msgstr ""
+
+#: em-vc-integration.php:241 em-vc-integration.php:422
+msgid "General"
+msgstr ""
+
+#: em-vc-integration.php:270
+msgid "Near"
+msgstr ""
+
+#: em-vc-integration.php:271
+msgid ""
+"Accepts a comma-separated coordinates (e.g. 1,1) value, which "
+"searches for events or locations located near this coordinate."
+msgstr ""
+
+#: em-vc-integration.php:275 em-vc-integration.php:295
+#: em-vc-integration.php:316
+msgid "Near..."
+msgstr ""
+
+#: em-vc-integration.php:290
+msgid "Near distance"
+msgstr ""
+
+#: em-vc-integration.php:291
+msgid "The radius distance when searching with the near attribute."
+msgstr ""
+
+#: em-vc-integration.php:311
+msgid "Near unit"
+msgstr ""
+
+#: em-vc-integration.php:312
+msgid "Select a unit to define a coordinate and distance within."
+msgstr ""
+
+#: em-vc-integration.php:346
+msgid "Event Categories"
+msgstr ""
+
+#: em-vc-integration.php:347
+msgid "Show events of a particular event category."
+msgstr ""
+
+#: em-vc-integration.php:359 em-vc-integration.php:386
+#: em-vc-integration.php:404 em-vc-integration.php:582
+#: em-vc-integration.php:651 em-vc-integration.php:658
+#: em-vc-integration.php:662
+msgid "Event"
+msgstr ""
+
+#: em-vc-integration.php:373
+msgid "Event Tags"
+msgstr ""
+
+#: em-vc-integration.php:374
+msgid "Show events with a particular event tag."
+msgstr ""
+
+#: em-vc-integration.php:400
+msgid "Search"
+msgstr ""
+
+#: em-vc-integration.php:401
+msgid ""
+"Do a search for this string within event name, details and "
+"location address."
+msgstr ""
+
+#: em-vc-integration.php:420
+msgid ""
+"Only show events starting within a certain time limit on the "
+"events page. Default is future events with no end time limit."
+msgstr ""
+
+#: em-vc-integration.php:420
+msgid ""
+"Choose the time frame of events to show. Additionally you can "
+"supply dates (in format of YYYY-MM-DD), either single for events "
+"on a specific date or two dates separated by a comma (e.g. "
+"2010-12-25,2010-12-31) for events ocurring between these dates. "
+"Default Value: future Accepted Arguments : future, past, today, "
+"tomorrow, month, next-month, 1-months, 2-months, 3-months, 6-"
+"months, 12-months, all"
+msgstr ""
+
+#: em-vc-integration.php:453
+msgid "Country"
+msgstr ""
+
+#: em-vc-integration.php:454
+msgid ""
+"Search for locations in this Country (no partial matches, case "
+"sensitive). Use two-character country codes as defined in "
+"countrycode.org, can be comma-separated e.g. DE,US"
+msgstr ""
+
+#: em-vc-integration.php:457 em-vc-integration.php:475
+#: em-vc-integration.php:493 em-vc-integration.php:511
+#: em-vc-integration.php:529 em-vc-integration.php:677
+#: em-vc-integration.php:684 em-vc-integration.php:688
+msgid "Location"
+msgstr ""
+
+#: em-vc-integration.php:471
+msgid "Postcode"
+msgstr ""
+
+#: em-vc-integration.php:472
+msgid ""
+"Search for locations in this Postcode (no partial matches, case "
+"sensitive)."
+msgstr ""
+
+#: em-vc-integration.php:489
+msgid "Region"
+msgstr ""
+
+#: em-vc-integration.php:490
+msgid ""
+"Search for locations in this Region (no partial matches, case "
+"sensitive)."
+msgstr ""
+
+#: em-vc-integration.php:507
+msgid "State"
+msgstr ""
+
+#: em-vc-integration.php:508
+msgid ""
+"Search for locations in this State (no partial matches, case "
+"sensitive)."
+msgstr ""
+
+#: em-vc-integration.php:525
+msgid "Town"
+msgstr ""
+
+#: em-vc-integration.php:526
+msgid ""
+"Search for locations in this Town (no partial matches, case "
+"sensitive)."
+msgstr ""
+
+#: em-vc-integration.php:543
+msgid "Map width"
+msgstr ""
+
+#: em-vc-integration.php:544
+msgid "The width in pixels of the map. Default: 450."
+msgstr ""
+
+#: em-vc-integration.php:547 em-vc-integration.php:565
+#: em-vc-integration.php:716
+msgid "Layout"
+msgstr ""
+
+#: em-vc-integration.php:561
+msgid "Map height"
+msgstr ""
+
+#: em-vc-integration.php:562
+msgid "The height in pixels of the map. Default: 300."
+msgstr ""
+
+#: em-vc-integration.php:582
+#, php-format
+msgid "%s List/Archives"
+msgstr ""
+
+#: em-vc-integration.php:584 em-vc-integration.php:605
+#: em-vc-integration.php:627 em-vc-integration.php:653
+#: em-vc-integration.php:679 em-vc-integration.php:705
+msgid "Events Manager"
+msgstr ""
+
+#: em-vc-integration.php:603
+msgid "Locations List"
+msgstr ""
+
+#: em-vc-integration.php:625
+msgid "Locations Map"
+msgstr ""
+
+#: em-vc-integration.php:703
+msgid "Events Calendar"
+msgstr ""
+
+#: em-vc-integration.php:711
+msgid "Full calendar"
+msgstr ""
+
+#: em-vc-integration.php:712
+msgid "Show a full sized calendar."
+msgstr ""
+
+#: em-vc-integration.php:714
+msgid "Yes"
+msgstr ""
