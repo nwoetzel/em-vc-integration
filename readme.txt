@@ -3,7 +3,7 @@ Contributors: nwoetzel
 Tags: em, events manager, vc, visual composer, js_composer
 Requires at least: 4.6
 Tested up to: 4.7.2
-Stable tag: 1.1.0
+Stable tag: 1.2.0
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -22,14 +22,34 @@ The [Events Manager shortcodes](http://wp-events-plugin.com/documentation/shortc
 Download the latest release from github as zip and install it through wordpress.
 Or use [wp-cli](http://wp-cli.org/) with the latest release:
 <pre>
-wp-cli.phar plugin install https://github.com/nwoetzel/em-vc-integration/archive/1.1.0.zip --activate
+wp-cli.phar plugin install https://github.com/nwoetzel/em-vc-integration/archive/1.2.0.zip --activate
 </pre>
+
+Or add them as a composer package in your wordpress' composer.json file:
+<pre>
+{
+        "repositories": [
+                {
+                        "type":  "vcs",
+                        "url":   "https://github.com/nwoetzel/em-vc-integration.git"
+                }
+
+        ],
+        "require"     : {
+                "nwoetzel/em-vc-integration":"~1.3"
+        }
+}
+</pre>
+Read more about that at http://composer.rarst.net/
 
 == Frequently Asked Questions ==
 
 == Screenshots ==
 
 == Changelog ==
+
+= 1.2.0 =
+* added support for composer http://composer.rarst.net/
 
 = 1.1.0 =
 * added translations
